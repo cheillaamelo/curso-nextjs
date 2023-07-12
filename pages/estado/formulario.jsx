@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 export default function formulario() {
-    const [valor, setValor] = useState(null)
+    const [valor, setValor] = useState('incial')
 
     function alterarInput() {
         setValor(valor + '!')
